@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import { AuthContextProvider } from "./Context/AuthContext";
-import Account from "./Pages/Account";
-import Home from "./Pages/Home";
-import Login from "./Pages/Login";
-import Signup from "./Pages/Signup";
+import Navbar from "./components/Navbar";
+import { AuthContextProvider } from "./context/AuthContext";
+import Account from "./pages/Account";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 const App = () => {
 	return (
